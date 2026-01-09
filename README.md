@@ -1,10 +1,24 @@
-# VHDL Alarm Clock
+# ⏰ VHDL Alarm Clock
 
 This project is an implementation of a VHDL design for a simple Alarm Clock on the Altera DE1 Board (Development and Education Board).
 
 <div align="center">
 <a href="./assets/de1-board.png"><img src="./assets/de1-board.png" alt="DE1 Board" width="500"></a>
 </div>
+
+## Table of contents
+
+- [🎯 Goal](#-goal)
+    - [Requirements](#requirements)
+    - [Inputs](#inputs)
+    - [Outputs](#outputs)
+- [📦 Structure](#-structure)
+- [🔧 Tools](#-tools)
+- [✈️ Usage](#️-usage)
+    - [🚀 Simulate](#-simulate)
+    - [🧪 Check \& Analyze](#-check--analyze)
+- [📚 Resources](#-resources)
+- [📜 License](#-license)
 
 ## 🎯 Goal
 
@@ -97,6 +111,11 @@ $ make
 
 > [!CAUTION]
 > There should be **no errors** if you haven't changed anything.
+
+## 📚 Resources
+
+- **[DE1 User Manual](./assets/DE1_UserManual_v1018.pdf)** – PDF of the DE1 Board User Manual
+- **[DE1 V11A Schematic](./assets/de1_v11a.pdf)** – Electronics schematic for the DE1 Board
 
 ## 📜 License
 
