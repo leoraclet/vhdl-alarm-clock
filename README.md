@@ -1,5 +1,35 @@
 # VHDL Alarm Clock
 
+This project is an implementation of a VHDL design for a simple Alarm Clock on the Altera DE1 Board (Development and Education Board).
+
+<div style="text-align: center">
+<a href="./assets/de1-board.png"><img src="./assets/de1-board.png" alt="DE1 Board" width="500"></a>
+</div>
+
+## 🎯 Goal
+
+We were tasked to develop an **alarm clock** on an FPGA.
+
+### Requirements
+
+- The clock must display **hours, minutes, and seconds** of the day.
+- The alarm must sound at a **specific programmed time**.
+- Both the **alarm time** and the **current time** must be programmable by the user.
+
+### Inputs
+
+- **Alarm/Time switch**: Toggles between displaying the **current time** or the **alarm time**.
+- **Alarm Enable/Disable switch**: Turns the alarm on or off.
+- **SetHour push button**: Used to set the **hour** (for either the current time or alarm time).
+- **SetMinute push button**: Used to set the **minute** (for either the current time or alarm time).
+
+### Outputs
+
+- **Six 7-segment displays**: Show the time in **HH:MM:SS** format (either the current time or the alarm time, depending on the switch).
+- **Two LEDs**:
+    - One LED indicates if the **alarm is enabled**.
+    - The other LED **blinks** when the alarm is ringing.
+
 ## 📦 Structure
 
 - **Directories**
