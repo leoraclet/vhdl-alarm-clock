@@ -3,9 +3,9 @@ CC = ghdl
 SIM = gtkwave
 WORKDIR = debug
 QUIET = @
+ARCHNAME=tb_alarm_clock
 
 # Optional arguments
-ARCHNAME?= tb_projet
 STOPTIME?= 100us
 
 # Source files
