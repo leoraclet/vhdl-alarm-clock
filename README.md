@@ -2,7 +2,7 @@
 
 This project is an implementation of a VHDL design for a simple Alarm Clock on the Altera DE1 Board (Development and Education Board).
 
-<div style="text-align: center">
+<div align="center">
 <a href="./assets/de1-board.png"><img src="./assets/de1-board.png" alt="DE1 Board" width="500"></a>
 </div>
 
